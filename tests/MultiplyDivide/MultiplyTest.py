@@ -6,3 +6,4 @@ class MultiplyTest(unittest.TestCase):
 
     def test_muliply(self):
         self.assertEqual(func_mul(5,2), 10)
+        self.assertEqual(func_mul(20,2), 40)
